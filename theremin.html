@@ -1,0 +1,140 @@
+<!--
+A litte modified version of
+https://www.smashingmagazine.com/2016/06/make-music-in-the-browser-with-a-web-audio-theremin/ 
+-->
+
+<head>
+    <title>Theremin</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/theremin.css">
+</head>
+<script>
+
+
+    var context = new AudioContext(),
+        oscillator = null,
+        gainNode = context.createGain(),
+        is_mouse_down = false,
+        radius = 15;
+    var maxFreq = Math.log10(2500),
+        minFreq = Math.log10(100);
+
+    gainNode.connect(context.destination);
+
+    var calculateFrequency = function (mouseXPosition) {
+        var relX = mouseXPosition / window.innerWidth;
+        return Math.pow(10, relX * (maxFreq - minFreq) + minFreq);
+    };
+
+    var calculateXpos = function (freq) {
+        return (Math.log10(freq) - minFreq) / (maxFreq - minFreq) * window.innerWidth;
+    }
+
+    var calculateGain = function (mouseYPosition) {
+        var minGain = 0, maxGain = 1;
+        return (1 - mouseYPosition / window.innerHeight) * (maxGain - minGain) + minGain;
+    };
+
+    var calculateHue = function (mouseXPosition){
+        var c_start = calculateXpos(65),
+            c_interval = (calculateXpos(2093) - calculateXpos(65)) / 5;
+            minHue = 0, maxHue = 360;
+        return ((mouseXPosition - c_start) % c_interval) / c_interval * (maxHue - minHue) + minHue;
+    }
+
+    var calculateRadius = function (mouseYPosition){
+        var minRadius = 5, maxRadius = 50;
+        return (1 - mouseYPosition / window.innerWidth) * (maxRadius - minRadius) + minRadius;
+    }
+
+
+
+    function stopOscillator(){
+        oscillator.stop(context.currentTime);
+        oscillator.disconnect();
+    }
+
+    function getPos(e){
+        if (e.touches) {
+            return [e.touches[0].clientX, e.touches[0].clientY];
+        }
+        return [e.clientX, e.clientY];
+    }
+
+    function onMouseDown(e){
+        pos = getPos(e);
+        if (is_mouse_down){
+            stopOscillator();
+        }
+        is_mouse_down = true;
+        // Create oscillator
+        oscillator = context.createOscillator();
+        oscillator.frequency.setTargetAtTime(calculateFrequency(pos[0]), context.currentTime, 0.01);
+        gainNode.gain.setTargetAtTime(calculateGain(pos[1]), context.currentTime, 0.001);
+        oscillator.connect(gainNode);
+        oscillator.start(context.currentTime);
+        // Set circle
+        var radius = calculateRadius(pos[1]);
+        $('#circle').css({
+            visibility: 'visible',
+            left: pos[0] - radius,
+            top: pos[1] - radius,
+            width: radius * 2,
+            height: radius * 2,
+            "border-radius": radius,
+            "background-color": "hsl("+calculateHue(pos[0])+", 100%, 50%)"
+        });
+    }
+
+    function onMouseUp(){
+        stopOscillator();
+        is_mouse_down = false;
+        $('#circle').css({
+            visibility: 'hidden'
+        });
+    }
+
+    function onMouseMove(e){
+        if(is_mouse_down){
+            pos = getPos(e);
+            oscillator.frequency.setTargetAtTime(calculateFrequency(pos[0]), context.currentTime, 0.01);
+            gainNode.gain.setTargetAtTime(calculateGain(pos[1]), context.currentTime, 0.001);
+            // Set circle
+            var radius = calculateRadius(pos[1]);
+            $('#circle').css({
+                left: pos[0] - radius,
+                top: pos[1] - radius,
+                width: radius * 2,
+                height: radius * 2,
+                "border-radius": radius,
+                "background-color": "hsl("+calculateHue(pos[0])+", 100%, 50%)"
+            });
+        }
+    }
+
+    $(document).ready(function(e) {
+        $('body').bind('mousedown touchstart', onMouseDown);
+        $('body').bind('mouseup touchend', onMouseUp);
+        $('body').bind('mousemove touchmove', onMouseMove);
+
+        // 262 : C4
+        var octave_c = [131, 262, 523, 1046.5, 2093];
+        $('.box').each(function(index) {
+            var xPos = calculateXpos(octave_c[index]) - 10;
+            $(this).css({
+                left: xPos,
+                "background-color": "hsl("+calculateHue(xPos)+", 100%, 50%)"
+            });
+        });
+    });
+
+</script>
+<body>
+<h1 id = "title"> Theremin </h1>
+<div id = "circle"></div>
+<div class = "box"></div>
+<div class = "box"></div>
+<div class = "box"></div>
+<div class = "box"></div>
+<div class = "box"></div>
+</body>
