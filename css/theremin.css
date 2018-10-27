@@ -1,0 +1,31 @@
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#title {
+    margin: 50px auto;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#circle {
+    position: absolute;
+    background-color: #787b87;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    visibility: hidden;
+}
+
+.box {
+    position: absolute;
+    background-color: #787b87;
+    width: 20px;
+    height: 50px;
+}
