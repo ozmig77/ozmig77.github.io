@@ -42,7 +42,11 @@
             .translate([width/2, height/2 - 50]);
          
         var path = d3.geoPath().projection(projection);
-         
+        
+        function data2r(d){
+            return Math.sqrt(d) / 10
+        }
+        
         d3.json("data/seoul_municipalities_topo_simple.json", function(error, data) {
             var features = topojson.feature(data, data.objects.seoul_municipalities_geo).features;
             map.selectAll("path")
@@ -62,7 +66,7 @@
                     if (d.data.length == 0){
                         return 0;
                     }else{
-                        return d.data[0]["nums"][time_line][1] / 1000;
+                        return data2r(d.data[0]["nums"][time_line][1]);
                    }})
                   .on("mouseover", handleMouseOver)
                   .on("mouseout", handleMouseOut)
@@ -76,7 +80,7 @@
                         return 0;
                     }else{
                         temp = d
-                        return d.data[0]["nums"][time_line][1] / 1000;
+                        return data2r(d.data[0]["nums"][time_line][1]);
                    }});         
         }
         // Function for tooltip
