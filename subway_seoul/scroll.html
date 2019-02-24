@@ -1,0 +1,81 @@
+
+<head>
+	<meta charset="utf-8">
+	<title>Scroll it!</title>
+	<style>
+		body{
+			margin: 0px;
+		}
+		.view{
+			min-height: 100vh;
+  			display: flex;
+            align-items: center;
+            justify-content: center;
+		}
+		#bottom{
+			min-height: 10vh;
+		}
+	</style>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script type="text/javascript">
+        // Interpolate two colors
+        function getColor(c1, c2, i){
+            // c1, c2: str, color names
+            // i:float in [0,1]
+            code = {'Red': [255, 0 , 0], 'Orange': [255, 127, 0],
+                    'Yellow': [255, 255, 0],'Green': [0, 255, 0],
+                    'Blue': [0, 0, 255],'Indigo': [75, 0, 130],
+                    'Purple': [148, 0, 211]}
+            cl1 = code[c1]
+            cl2 = code[c2]
+            newc = "rgb("
+            for(var ch = 0; ch < 3; ch++){
+                newc += parseInt(cl1[ch] * (1 - i) + cl2[ch] * i)
+                if (ch == 2){
+                    newc+=")"
+                }
+                else{
+                    newc += ","
+                }
+            }
+            return newc
+        }
+		var colors = ['Red','Orange','Yellow','Green','Blue','Indigo','Purple']
+		$(document).ready(function(){
+            // Append views
+			for(i = 0;i<colors.length;i++){
+				var new_div = "<div class='view'><h1>"+colors[i]+"</h1></div>"
+				$(new_div).insertBefore($("#bottom"))
+	            //$("body").append($(new_div))
+        	}
+            // Scoll event
+        	$(window).scroll(function(){
+        		var cur = $(window).scrollTop()
+        		$(".view").each(function(index){
+        			var pos = $(this).position().top
+        			var height = $(this).height() 
+        			if (pos <= cur && cur < pos + height) {
+                        var color = getColor(colors[index], colors[(index + 1)%colors.length],
+                                             (cur - pos) / height)
+                        $("body").css('background-color', color);
+        			}
+	        	})
+	        	// Make scroll cycle.
+	        	var doc_h = $(document).height() - window.innerHeight;
+	        	if(cur == 0){
+	        		$(window).scrollTop(doc_h -  10)
+	        	}
+	            if(cur == doc_h) {
+    			    $(window).scrollTop(10)
+   				}
+        	});
+            // Refresh event
+            $(window).on('beforeunload', function(){
+                $("html,body").scrollTop(10);
+            });
+        });
+	</script>
+</head>
+<body>
+	<div id=bottom></div>
+</body>
