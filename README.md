@@ -1,7 +1,7 @@
-# Blog.
+# CV
 
 
-Using jekyll-simple.
+Using [modern-resume](http://themes.jekyllrc.org/modern-resume/)
 
 
 ### Mathjax cheatsheet
