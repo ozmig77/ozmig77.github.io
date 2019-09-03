@@ -53,15 +53,14 @@ education:
       time: 2019.03 - Current
       details: |
         - M.S. student in [Computer Science and Engineering](https://cse.snu.ac.kr/en)
-        - Advisor: [Prof. Gunhee Kim.]
+        - Advisor: [Prof. Gunhee Kim.](http://vision.snu.ac.kr/~gunhee/)
     - degree: Seoul National University, Seoul, Korea.
+      time: 2012.03 - 2018.02
+      details: |
         - [College of Liberal Studies](http://cls.snu.ac.kr/en)
         - B.S. in Computer Science
         - B.Soc.Sc. in Information Science and Culture
-      #university: Seoul National University
-      time: 2012.03 - 2018.02
-      #details: |
-        
+      #university: Seoul National University    
 
 experiences:
     - role: Research Intern
