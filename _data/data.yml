@@ -72,16 +72,18 @@ experiences:
 
     - role: Undergraduate Researcher
       time: 2017.06 - 2018.02
-      company: Vision and Learning Lab
+      company: Vision and Learning Lab, Seoul, Korea.
       details: |
           - Worked on movie video captioning, language based retrieval algorithm
 
 publications:
     title: Publications
-    #intro: 
-    papers: |
-      - title: [A Joint Sequence Fusion Model for Video Question Answering and Retrieval](https://arxiv.org/abs/1808.02559)
-        authors: Youngjae Yu, **Jongseok Kim**, Gunhee Kim
+    intro: 
+    papers:
+      - title: |
+          [A Joint Sequence Fusion Model for Video Question Answering and Retrieval](https://arxiv.org/abs/1808.02559)
+        authors: |
+          Youngjae Yu, **Jongseok Kim**, Gunhee Kim
         conference: ECCV 2018
 
 awards:
@@ -91,6 +93,7 @@ awards:
         - 5th prize (ITM), [The 2nd YouTube-8M Video Understanding Challenge](https://www.kaggle.com/c/youtube8m-2018/leaderboard) (Team KANU), 2018
         - 1st prize, [Movie Fill-in-the-Blank track](https://sites.google.com/site/describingmovies/previous-years/lsmdc-2017) - Large Scale Movie Description and Understanding Challenge, 2017
         - 1st prize, [Movie Annotation and Retrieval track](https://sites.google.com/site/describingmovies/previous-years/lsmdc-2017) - Large Scale Movie Description and Understanding Challenge, 2017
+
     
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
