@@ -1,0 +1,111 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Jongseok, Kim
+    tagline: (김종석)
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: js.kim@vision.snu.ac.kr
+    phone:
+    website: ozmig77.github.io #do not add http://
+    linkedin:
+    github: ozmig77
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    #languages:
+    #  - idiom: English
+    #    level: Native
+
+    #  - idiom: Spanish
+    #    level: Professional
+
+    #interests:
+    #  - item: Climbing
+    #    link:
+
+    #  - item: Snowboarding
+    #    link:
+
+    
+career-profile:
+    title: Career Profile
+    summary: |
+      M.S student in CSE at Seoul National University.
+      Advisor: [Prof. Gunhee Kim.](http://vision.snu.ac.kr/~gunhee/)
+      
+      [Curriculum Vitae(PDF)](https://github.com/ozmig77/ozmig77.github.io).
+
+education:
+    - degree: M.S. in Computer Science
+      university: Seoul National University
+      time: 2019.03 - Current
+      details: |
+        Advisor: [Prof. Gunhee Kim.]
+
+    - degree: B.S. in Computer Science, B.Soc.Sc. in Information Science and Culture
+      university: Seoul National University
+      time: 2012.03 - 2018.02
+      details: |
+        s
+
+experiences:
+    - role: Research Intern
+      time: 2018.02 - 2019.03
+      company: Kakao Brain, Sungnam.
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor.
+
+          - Worked on text
+          - Bullet point
+
+    - role: Undergraduate Researcher
+      time: 2014 - 2015
+      company: Vision and Learning Lab
+      details: |
+          - Worked on video captioning, video language retrieval, Bullet point
+          - Bullet point
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+publications:
+    title: Publications
+    #intro: 
+    papers: |
+      - title: [A Joint Sequence Fusion Model for Video Question Answering and Retrieval](https://arxiv.org/abs/1808.02559)
+        authors: Youngjae Yu, **Jongseok Kim**, Gunhee Kim
+        conference: ECCV 2018
+
+career-profile:
+    title: awards
+    summary: |
+        - Hyundai Motor Chung Mong-Koo Foundation Scholarship, 2019 ~
+        - 5th prize (ITM), [The 2nd YouTube-8M Video Understanding Challenge](https://www.kaggle.com/c/youtube8m-2018/leaderboard) (Team KANU), 2018
+        - 1st prize, [Movie Fill-in-the-Blank track](https://sites.google.com/site/describingmovies/previous-years/lsmdc-2017) - Large Scale Movie Description and Understanding Challenge}}, 2017
+        - 1st prize, [Movie Annotation and Retrieval track](https://sites.google.com/site/describingmovies/previous-years/lsmdc-2017) - Large Scale Movie Description and Understanding Challenge, 2017
+    
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
