@@ -48,48 +48,34 @@ career-profile:
       [Curriculum Vitae(PDF)](https://github.com/ozmig77/ozmig77.github.io).
 
 education:
-    - degree: M.S. in Computer Science
-      university: Seoul National University
+    - degree: Seoul National University, Seoul, Korea.
+      #university: M.S. in Computer Science
       time: 2019.03 - Current
       details: |
-        Advisor: [Prof. Gunhee Kim.]
-
-    - degree: B.S. in Computer Science, B.Soc.Sc. in Information Science and Culture
-      university: Seoul National University
+        - M.S. student in [Computer Science and Engineering](https://cse.snu.ac.kr/en)
+        - Advisor: [Prof. Gunhee Kim.]
+    - degree: Seoul National University, Seoul, Korea.
+        - [College of Liberal Studies](http://cls.snu.ac.kr/en)
+        - B.S. in Computer Science
+        - B.Soc.Sc. in Information Science and Culture
+      #university: Seoul National University
       time: 2012.03 - 2018.02
-      details: |
-        s
+      #details: |
+        
 
 experiences:
     - role: Research Intern
       time: 2018.02 - 2019.03
-      company: Kakao Brain, Sungnam.
+      company: Kakao Brain, Sungnam, Korea.
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor.
-
-          - Worked on text
-          - Bullet point
+          - Worked on text-to-speech algorithm, speaker adaptation and encoding.
+          - Worked on web video classification, visual question answering.
 
     - role: Undergraduate Researcher
-      time: 2014 - 2015
+      time: 2017.06 - 2018.02
       company: Vision and Learning Lab
       details: |
-          - Worked on video captioning, video language retrieval, Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+          - Worked on movie video captioning, language based retrieval algorithm
 
 publications:
     title: Publications
@@ -102,9 +88,9 @@ publications:
 awards:
     title: awards
     summary: |
-        - Hyundai Motor Chung Mong-Koo Foundation Scholarship, 2019 ~
+        - Hyundai Motor Chung Mong-Koo Foundation Scholarship, 2019 ~ Current
         - 5th prize (ITM), [The 2nd YouTube-8M Video Understanding Challenge](https://www.kaggle.com/c/youtube8m-2018/leaderboard) (Team KANU), 2018
-        - 1st prize, [Movie Fill-in-the-Blank track](https://sites.google.com/site/describingmovies/previous-years/lsmdc-2017) - Large Scale Movie Description and Understanding Challenge}}, 2017
+        - 1st prize, [Movie Fill-in-the-Blank track](https://sites.google.com/site/describingmovies/previous-years/lsmdc-2017) - Large Scale Movie Description and Understanding Challenge, 2017
         - 1st prize, [Movie Annotation and Retrieval track](https://sites.google.com/site/describingmovies/previous-years/lsmdc-2017) - Large Scale Movie Description and Understanding Challenge, 2017
     
 footer: >
