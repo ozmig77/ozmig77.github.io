@@ -64,7 +64,7 @@ education:
 
 experiences:
     - role: Research Intern
-      time: 2018.02 - 2019.03
+      time: 2018.03 - 2019.02
       company: Kakao Brain, Sungnam, Korea.
       details: |
           - Worked on text-to-speech algorithm, speaker adaptation and encoding.
