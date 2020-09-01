@@ -81,15 +81,16 @@ publications:
     intro: 
     papers:
       - title: |
-          [A Joint Sequence Fusion Model for Video Question Answering and Retrieval](https://arxiv.org/abs/1808.02559)
-        authors: |
-          Youngjae Yu, **Jongseok Kim**, Gunhee Kim
-        conference: ECCV 2018
-      - title: |
           [Character Grounding and Re-Identification in Story of Videos and Text Descriptions](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500528.pdf)
         authors: |
           Youngjae Yu, **Jongseok Kim**, Heeseung Yun, Jiwan Chung, Gunhee Kim
         conference: ECCV 2020
+      - title: |
+          [A Joint Sequence Fusion Model for Video Question Answering and Retrieval](https://arxiv.org/abs/1808.02559)
+        authors: |
+          Youngjae Yu, **Jongseok Kim**, Gunhee Kim
+        conference: ECCV 2018
+      
 
 awards:
     title: awards
