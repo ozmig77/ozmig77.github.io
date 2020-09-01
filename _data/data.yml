@@ -85,11 +85,16 @@ publications:
         authors: |
           Youngjae Yu, **Jongseok Kim**, Gunhee Kim
         conference: ECCV 2018
+      - title: |
+          [Character Grounding and Re-Identification in Story of Videos and Text Descriptions](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500528.pdf)
+        authors: |
+          Youngjae Yu, **Jongseok Kim**, Heeseung Yun, Jiwan Chung, Gunhee Kim
+        conference: ECCV 2020
 
 awards:
     title: awards
     summary: |
-        - 1st prize, [2nd DramaQA Challenge 2020](https://dramaqa.snu.ac.kr/Challenge/2020) held in CVPR 2020
+        - 1st prize, [2nd DramaQA Challenge 2020](https://dramaqa.snu.ac.kr/Challenge/2020) held in ECCV 2020
         - 1st prize, [Fashion-IQ Challenge 2020](https://sites.google.com/view/cvcreative2020/program/fashion-iq-challenge?authuser=0) held in CVPR 2020
         - 1st prize, [Large Scale Movie Description and Understanding Challenge 2019](https://sites.google.com/site/describingmovies/lsmdc-2019) held in ICCV 2019
         - Hyundai Motor Chung Mong-Koo Foundation Scholarship, 2019 ~ Current
