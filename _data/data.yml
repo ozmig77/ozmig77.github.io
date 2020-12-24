@@ -43,7 +43,7 @@ career-profile:
     title: Career Profile
     summary: |
       M.S student in CSE at Seoul National University.
-      Advisor: [Prof. Gunhee Kim.](http://vision.snu.ac.kr/~gunhee/)
+      Advisor: [Prof. Gunhee Kim.](http://vision.snu.ac.kr/gunhee/)
       
       [Curriculum Vitae(PDF)](https://drive.google.com/open?id=1oemnMWRH-QvBqtjx6CqYFyVgbMiPtd_-).
 
@@ -81,10 +81,15 @@ publications:
     intro: 
     papers:
       - title: |
+          Dual Composition Learning in Interactive Image Retrieval
+        authors: |
+          **Jongseok Kim**, Youngjae Yu, Hoeseong Kim, Gunhee Kim
+        conference: AAAI 2021
+      - title: |
           [Character Grounding and Re-Identification in Story of Videos and Text Descriptions](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500528.pdf)
         authors: |
           Youngjae Yu, **Jongseok Kim**, Heeseung Yun, Jiwan Chung, Gunhee Kim
-        conference: ECCV 2020
+        conference: ECCV 2020 spotlight
       - title: |
           [A Joint Sequence Fusion Model for Video Question Answering and Retrieval](https://arxiv.org/abs/1808.02559)
         authors: |
