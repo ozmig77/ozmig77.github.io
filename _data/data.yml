@@ -42,15 +42,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      M.S student in CSE at Seoul National University.
-      Advisor: [Prof. Gunhee Kim.](http://vision.snu.ac.kr/gunhee/)
+      Research Scientist at [Violet](https://violet.team/)
       
       [Curriculum Vitae(PDF)](https://drive.google.com/open?id=1oemnMWRH-QvBqtjx6CqYFyVgbMiPtd_-).
 
 education:
     - degree: Seoul National University, Seoul, Korea.
       #university: M.S. in Computer Science
-      time: 2019.03 - Current
+      time: 2019.03 - 2021.02
       details: |
         - M.S. student in [Computer Science and Engineering](https://cse.snu.ac.kr/en)
         - Advisor: [Prof. Gunhee Kim.](http://vision.snu.ac.kr/~gunhee/)
@@ -63,6 +62,13 @@ education:
       #university: Seoul National University    
 
 experiences:
+    - role: Graduate Researcher
+      time: 2019.03 - 2021.03
+      company: Vision and Learning Lab, Seoul, Korea.
+      details: |
+          - Worked on video captioning, character re-identification.
+          - Worked on interactive image retrieval.
+          
     - role: Research Intern
       time: 2018.03 - 2019.02
       company: Kakao Brain, Sungnam, Korea.
@@ -100,6 +106,7 @@ publications:
 awards:
     title: awards
     summary: |
+        - SNU CSE best thesis award, 2021.02
         - 1st prize, [2nd DramaQA Challenge 2020](https://dramaqa.snu.ac.kr/Challenge/2020) held in ECCV 2020
         - 1st prize, [Fashion-IQ Challenge 2020](https://sites.google.com/view/cvcreative2020/program/fashion-iq-challenge?authuser=0) held in CVPR 2020
         - 1st prize, [Large Scale Movie Description and Understanding Challenge 2019](https://sites.google.com/site/describingmovies/lsmdc-2019) held in ICCV 2019
