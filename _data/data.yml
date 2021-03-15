@@ -94,7 +94,12 @@ publications:
     intro: 
     papers:
       - title: |
-          Dual Composition Learning in Interactive Image Retrieval
+          Transitional Adaptation of Pretrained Models for Visual Storytelling
+        authors: |
+          Youngjae Yu, Jiwan Chung, Heeseung Yun, **Jongseok Kim**, Gunhee Kim
+        conference: CVPR 2021
+      - title: |
+          [Dual Composition Learning in Interactive Image Retrieval](https://github.com/ozmig77/dcnet)
         authors: |
           **Jongseok Kim**, Youngjae Yu, Hoeseong Kim, Gunhee Kim
         conference: AAAI 2021
