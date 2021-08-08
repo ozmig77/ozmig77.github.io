@@ -65,9 +65,9 @@ experiences:
     - role: Research Scientist
       time: 2021.03 - Current
       company: Violet, Seoul, Korea.
-       details: |
-           - Working on automated video magazine editing.
-           - Including video classification, magazine layout recommendation and text generation.
+      details: |
+          - Work on automated video magazine editing.
+          - Including video classification, magazine layout recommendation and text generation.
 
     - role: Graduate Researcher
       time: 2019.03 - 2021.02
