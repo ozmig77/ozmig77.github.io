@@ -120,20 +120,20 @@ publications:
         conference: ECCV 2018
       
 
-# workshops:
-#     title: Workshops
-#     intro: 
-#     papers:
-#       - title: |
-#           Cycled Compositional Learning between Images and Text
-#         authors: |
-#           **Jongseok Kim**, Youngjae Yu, Seunghwan Lee, Gunhee Kim
-#         conference: {CVPR 2020, Third Workshop on Computer Vision for Fashion, Art and Design
-#       - title: |
-#           Temporal Attention Mechanism with Conditional Inference for Large-Scale Multi-Label Video Classification
-#         authors: |
-#           Eun-Sol Kim, Kyoung-Woon On, **Jongseok Kim**, Yu-Jung Heo, Seong-Ho Choi, Hyun-Dong Lee, Byoung-Tak Zhang
-#         conference: ECCV 2018, Second Workshop on Youtube-8M Large-Scale Video Understanding
+workshops:
+    title: Workshops
+    intro: 
+    papers:
+      - title: |
+          Cycled Compositional Learning between Images and Text
+        authors: |
+          **Jongseok Kim**, Youngjae Yu, Seunghwan Lee, Gunhee Kim
+        conference: {CVPR 2020, Third Workshop on Computer Vision for Fashion, Art and Design
+      - title: |
+          Temporal Attention Mechanism with Conditional Inference for Large-Scale Multi-Label Video Classification
+        authors: |
+          Eun-Sol Kim, Kyoung-Woon On, **Jongseok Kim**, Yu-Jung Heo, Seong-Ho Choi, Hyun-Dong Lee, Byoung-Tak Zhang
+        conference: ECCV 2018, Second Workshop on Youtube-8M Large-Scale Video Understanding
 
 
 awards:
