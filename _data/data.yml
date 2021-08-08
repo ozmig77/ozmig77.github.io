@@ -42,7 +42,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Research Scientist at [Violet](https://violet.team/)
+      Hello, I'm research Scientist at [Violet](https://violet.team/).
       
       [Curriculum Vitae(PDF)](https://ozmig77.github.io/Curriculum_Vitae.pdf).
 
@@ -65,16 +65,16 @@ experiences:
     - role: Research Scientist
       time: 2021.03 - Current
       company: Violet, Seoul, Korea.
-#       details: |
-#           - Worked on text-to-speech algorithm, speaker adaptation and encoding.
-#           - Worked on web video classification, visual question answering.
+       details: |
+           - Working on automated video magazine editing.
+           - Including video classification, magazine layout recommendation and text generation.
 
     - role: Graduate Researcher
       time: 2019.03 - 2021.02
       company: Vision and Learning Lab, Seoul, Korea.
       details: |
-          - Worked on video captioning, character re-identification.
-          - Worked on interactive image retrieval.
+          - Worked on video captioning and character re-identification.
+          - Worked on interactive image retrieval and change captioning.
           
     - role: Research Intern
       time: 2018.03 - 2019.02
@@ -93,6 +93,11 @@ publications:
     title: Publications
     intro: 
     papers:
+      - title: |
+          Viewpoint-Agnostic Change Captioning with Cycle Consistency
+        authors: |
+          Hoeseong Kim, **Jongseok Kim**, Hyungseok Lee, Hyunsung Park, Gunhee Kim
+        conference: ICCV 2021
       - title: |
           Transitional Adaptation of Pretrained Models for Visual Storytelling
         authors: |
@@ -114,6 +119,22 @@ publications:
           Youngjae Yu, **Jongseok Kim**, Gunhee Kim
         conference: ECCV 2018
       
+
+publications:
+    title: Workshops
+    intro: 
+    papers:
+      - title: |
+          Cycled Compositional Learning between Images and Text
+        authors: |
+          **Jongseok Kim**, Youngjae Yu, Seunghwan Lee, Gunhee Kim
+        conference: {CVPR 2020, Third Workshop on Computer Vision for Fashion, Art and Design
+      - title: |
+          Temporal Attention Mechanism with Conditional Inference for Large-Scale Multi-Label Video Classification
+        authors: |
+          Eun-Sol Kim, Kyoung-Woon On, **Jongseok Kim**, Yu-Jung Heo, Seong-Ho Choi, Hyun-Dong Lee, Byoung-Tak Zhang
+        conference: ECCV 2018, Second Workshop on Youtube-8M Large-Scale Video Understanding
+
 
 awards:
     title: awards
