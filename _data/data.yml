@@ -128,7 +128,7 @@ workshops:
           Cycled Compositional Learning between Images and Text
         authors: |
           **Jongseok Kim**, Youngjae Yu, Seunghwan Lee, Gunhee Kim
-        conference: {CVPR 2020, Third Workshop on Computer Vision for Fashion, Art and Design
+        conference: CVPR 2020, Third Workshop on Computer Vision for Fashion, Art and Design
       - title: |
           Temporal Attention Mechanism with Conditional Inference for Large-Scale Multi-Label Video Classification
         authors: |
