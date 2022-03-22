@@ -62,8 +62,13 @@ education:
       #university: Seoul National University    
 
 experiences:
+    - role: Machine Learning Engineer
+      time: 2021.10 - Current
+      company: LFX, Seoul, Korea.
+      details: |
+          - Frenz dev
     - role: Research Scientist
-      time: 2021.03 - Current
+      time: 2021.03 - 2021.09
       company: Violet, Seoul, Korea.
       details: |
           - Work on automated video magazine editing.
