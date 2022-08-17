@@ -58,13 +58,13 @@ education:
       details: |
         - [College of Liberal Studies](http://cls.snu.ac.kr/en)
         - B.S. in Computer Science
-        - B.Soc.Sc. in Information Science and Culture
+        - B.A. in Information Science and Culture
       #university: Seoul National University    
 
 experiences:
     - role: Machine Learning Engineer
       time: 2021.10 - Current
-      company: IPX, Seoul, Korea.
+      company: IPX (Line Friends), Seoul, Korea.
       details: |
           - Frenz dev
     - role: Research Scientist
@@ -148,7 +148,7 @@ awards:
         - 1st prize, [2nd DramaQA Challenge 2020](https://dramaqa.snu.ac.kr/Challenge/2020) held in ECCV 2020
         - 1st prize, [Fashion-IQ Challenge 2020](https://sites.google.com/view/cvcreative2020/program/fashion-iq-challenge?authuser=0) held in CVPR 2020
         - 1st prize, [Large Scale Movie Description and Understanding Challenge 2019](https://sites.google.com/site/describingmovies/lsmdc-2019) held in ICCV 2019
-        - Hyundai Motor Chung Mong-Koo Foundation Scholarship, 2019 ~ Current
+        - Hyundai Motor Chung Mong-Koo Foundation Scholarship, 2019 ~ 2020
         - 5th prize (ITM), [The 2nd YouTube-8M Video Understanding Challenge](https://www.kaggle.com/c/youtube8m-2018/leaderboard) (Team KANU) held in ECCV 2018
         - 1st prize, [Movie Fill-in-the-Blank track](https://sites.google.com/site/describingmovies/previous-years/lsmdc-2017) - Large Scale Movie Description and Understanding Challenge held in ICCV 2017
         - 1st prize, [Movie Annotation and Retrieval track](https://sites.google.com/site/describingmovies/previous-years/lsmdc-2017) - Large Scale Movie Description and Understanding Challenge held in ICCV 2017
