@@ -15,7 +15,7 @@ sidebar:
     email: ozmig77@gmail.com
     phone:
     website: ozmig77.github.io #do not add http://
-    linkedin: jongseok-kim-oz
+    linkedin: jongseok-kim-
     github: ozmig77
     gitlab:
     bitbucket:
@@ -62,8 +62,13 @@ education:
       #university: Seoul National University    
 
 experiences:
+    - role: ML Research Scientist
+      time: 2023.06 - Current
+      company: Twelve labs, Seoul, Korea.
+      details: |
+          - Video search
     - role: Machine Learning Engineer
-      time: 2021.10 - Current
+      time: 2021.10 - 2023.06
       company: IPX (Line Friends), Seoul, Korea.
       details: |
           - Frenz dev
